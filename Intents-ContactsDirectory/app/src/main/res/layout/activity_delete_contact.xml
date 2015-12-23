@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sam.contactsdirectory.DeleteContact">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_contact_button"
+        android:id="@+id/select_contact"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:editable="false"
+        android:hint="@string/name_hint"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:inputType="phone"
+        android:editable="false"
+        android:maxLength="10"
+        android:hint="@string/number_hint"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:editable="false"
+        android:id="@+id/email"
+        android:hint="@string/email_hint"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photo"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/default_photo"
+        android:maxHeight="240dp"
+        android:maxWidth="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/button_group_create_contact"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_button"
+            style="@style/Base.Widget.AppCompat.ButtonBar"
+            android:text="@string/delete"
+            android:layout_margin="10sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_button"
+            style="@style/Base.Widget.AppCompat.ButtonBar"
+            android:text="@string/cancel"
+            android:layout_margin="10sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

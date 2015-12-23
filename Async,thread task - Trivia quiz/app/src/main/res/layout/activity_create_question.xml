@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sam.hw04.CreateQuestion">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSelectImage"
+        android:text="@string/select_image_label"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        />
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/image_min_height"
+        android:layout_below="@id/buttonSelectImage"
+        android:id="@+id/imageView"
+        android:layout_marginTop="5sp"
+        android:src="@drawable/default_image"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/question_hint"
+        android:layout_below="@id/imageView"
+        android:id="@+id/question"
+        android:paddingTop="10sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:id="@+id/answer"
+        android:layout_toLeftOf="@+id/add"
+        android:layout_toStartOf="@id/add"
+        android:layout_marginRight="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/answer_hint"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="@string/plus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="40sp"
+        android:layout_below="@id/question"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/options"
+        android:layout_below="@id/add"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp">
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSubmit"
+        android:text="@string/submit"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

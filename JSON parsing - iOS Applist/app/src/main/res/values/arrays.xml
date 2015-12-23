@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item>@string/audio_books</item>
+        <item>@string/books</item>
+        <item>@string/ios_apps</item>
+        <item>@string/itunes_u</item>
+        <item>@string/mac_apps</item>
+        <item>@string/movies</item>
+        <item>@string/podcasts</item>
+        <item>@string/tv_shows</item>
+    </array>
+
+    <array name="urls">
+        <item>@string/audio_book_url</item>
+        <item>@string/book_url</item>
+        <item>@string/ios_apps_url</item>
+        <item>@string/itunes_u_url</item>
+        <item>@string/mac_apps_url</item>
+        <item>@string/movies_url</item>
+        <item>@string/podcasts_url</item>
+        <item>@string/tv_shows_url</item>
+    </array>
+
+</resources>

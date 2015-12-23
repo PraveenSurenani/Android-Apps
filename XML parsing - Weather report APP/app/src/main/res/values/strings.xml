@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InClass5</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_hint">Enter City,Country</string>
+    <string name="go">Go</string>
+    <string name="toggle_label">Use Pull/SAX Parser</string>
+    <string name="seperator">*********************************</string>
+    <string name="lt">&#60;</string>
+    <string name="gt">&#62;</string>
+    <string name="API">http://api.openweathermap.org/data/2.5/forecast/</string>
+    <string name="image_url_prelude">http://openweathermap.org/img/w/</string>
+
+</resources>

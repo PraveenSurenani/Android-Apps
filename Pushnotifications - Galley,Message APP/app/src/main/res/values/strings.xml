@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="appId">1720706378164702</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="twitter_log_in">LOG IN WITH TWITTER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt_username">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User</string>
+    <string name="title_activity_sign_up">Sign up</string>
+    <string name="prompt_password_again">Confrim Password</string>
+    <string name="signup">Sign up</string>
+    <string name="name">First and Last Name</string>
+    <string name="title_activity_message_me">MessageMe</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+    <string name="compose">Compose</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_compose">Compose</string>
+    <string name="message">Message:</string>
+    <string name="send">Send</string>
+
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+    <string name="list">List User</string>
+    <string name="notify">Send Notifications</string>
+    <string name="albums">Albums</string>
+    <string name="my_albumns">My Albums</string>
+    <string name="create_album">Create an Album</string>
+    <string name="invited_albums">Invited To</string>
+    <string name="users">Users</string>
+
+    <string name="album_name">Album Name</string>
+    <string name="private_album">Private</string>
+    <string name="first_photo">First Image</string>
+
+    <string name="invite">Invite</string>
+    <string name="invited_users">Invited Users</string>
+    <string name="add_image">Add</string>
+    <string name="delete_album">Delete Album</string>
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="create_message">Create message</string>
+    <string name="inbox">Inbox</string>
+    <string name="emssage_prompt">Write your message</string>
+    <string name="send_to">Send To:</string>
+    <string name="reply">Reply</string>
+    <string name="approve">Approve</string>
+</resources>

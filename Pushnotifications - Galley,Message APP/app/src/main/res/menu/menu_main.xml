@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sam.project.MainActivity">
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/action_profile"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/logout" android:title="@string/logout" android:orderInCategory="900"/>
+    <item android:id="@+id/users" android:title="@string/users" android:orderInCategory="101" />
+    <item android:id="@+id/albums" android:title="@string/albums" android:orderInCategory="102"/>
+    <item android:id="@+id/create_album" android:title="@string/create_album" android:orderInCategory="105"/>
+    <item android:id="@+id/create_message" android:title="@string/create_message" android:orderInCategory="110"/>
+    <item android:id="@+id/inbox" android:title="@string/inbox" android:orderInCategory="111"/>
+</menu>

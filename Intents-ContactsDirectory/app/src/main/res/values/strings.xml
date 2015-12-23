@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Contacts Directory</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="create_button">Create Contact</string>
+    <string name="edit_button">Edit Contact</string>
+    <string name="delete_button">Delete Contact</string>
+    <string name="display_button">Display Contacts</string>
+    <string name="finish_button">Finish</string>
+    <string name="title_activity_create_contact">Create Contact</string>
+    <string name="name_hint">Name</string>
+    <string name="number_hint">Phone Number</string>
+    <string name="email_hint">Email</string>
+    <string name="default_photo">android.resource://com.sam.contactsdirectory/drawable/default.png</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="content_description">Photo ID</string>
+    <string name="title_activity_edit_contact">Edit Contact</string>
+    <string name="select_contact_button">Select Contact</string>
+    <string name="choose">Choose a Contact</string>
+    <string name="title_activity_delete_contact">Delete Contact</string>
+    <string name="title_activity_display_contacts">Display Contacts</string>
+    <string name="finish">Finish</string>
+</resources>

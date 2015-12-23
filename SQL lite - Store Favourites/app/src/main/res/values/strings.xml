@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InClass06</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="apps_activity">Apps Activity</string>
+    <string name="preview_activity">Preview Activity</string>
+    <string name="api_url">http://itunes.apple.com/us/rss/topgrossingapplications/limit=25/json</string>
+    <string name="thumb_description">A thumbnail image</string>
+    <string name="image_description">A preview image</string>
+    <string name="fav">Show Favorites</string>
+    <string name="all">Show All</string>
+</resources>
